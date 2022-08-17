@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+/* font-family: "Bebas Neue", cursive; */
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Permanent Marker", cursive; */
+/* font-family: 'Anonymous Pro', monospace; */
+/* #e42628 */
+
+.mr {
+  margin-right: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  scroll-behavior: smooth;
+}
+
+body {
+}
+
+nav {
+  padding: 30px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.brand {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  font-weight: 800;
+  display: inline-flex;
+}
+
+.brandText {
+  margin-left: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.list {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 5px;
+  font-size: 15px;
+  display: inline;
+}
+
+.list a:hover {
+  cursor: pointer;
+  color: #e42628;
+}
+
+section {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 40px;
+}
+
+.header {
+}
+
+.headerText {
+  text-align: center;
+}
+
+.headerTextFirst {
+  font-family: "Permanent Marker", cursive;
+  font-size: 50px;
+}
+.headerTextFirst m {
+  transition: 0.3s;
+}
+
+.headerTextFirst m:hover {
+  color: #e42628;
+}
+
+.headerTextSecond {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.headerImage {
+  width: 30%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.newsPaper {
+  margin: auto;
+  width: 70%;
+  height: 400px;
+  background-color: #ecf1ec;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.newsPaper .innerPaper {
+  padding: 30px;
+}
+
+.newsHeader {
+  justify-content: space-between;
+  display: flex;
+}
+
+.newsPaper .innerPaper .newsContent {
+  display: flex;
+  margin-top: 30px;
+}
+
+.newsPaper .innerPaper .textFirst {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+.newsPaper .innerPaper .textSecond {
+  font-family: "Bebas Neue", cursive;
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.newsPaper .innerPaper span {
+  display: block;
+  width: 100%; /*or whatever width you want the effect of <hr>*/
+  border-top: 5px solid black;
+}
+
+.newsPaper .innerPaper .newsContent p {
+  display: inline;
+  margin-right: 15px;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.newsPaper .innerPaper .newsContent .newsImage {
+  width: 350px;
+}
+
+.card {
+  margin: auto;
+  width: 70%;
+  justify-content: space-between;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+
+.soekarno {
+  width: 70%;
+}
